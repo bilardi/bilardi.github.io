@@ -103,6 +103,10 @@ permalink: /
                     <li><a class="fa fa-2x fa-weibo" href="https://weibo.com/{{ site.weibo_username }}"><span class="description">微博</span></a></li>
                     {% endif %}
 
+                    {% if site.wikipedia_username %}
+                    <li><a class="fa fa-2x fa-wikipedia-w" href="http://en.wikipedia.org/wiki/User:{{ site.wikipedia_username }}"><span class="description">Wikipedia</span></a></li>
+                    {% endif %}
+
                     {% if site.blog_url %}
                     <li><a class="fa fa-2x fa-tags" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
                     {% endif %}

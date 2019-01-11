@@ -1,18 +1,12 @@
-# front cover jekyll theme
+# My Homepage - since 2019
 
-## Why choose this jekyll theme for your front page?
-* You don't have to modify any HTML, everything can be modified in config.yml.
-* Very lightweight. No Javascript, No Bootstrap etc..
-* MIT licensed.
+What I done:
 
+- I forked the repository of [dashingcode/front-cover](https://github.com/dashingcode/front-cover)
+- I follow this macro [gist](https://gist.github.com/bilardi/6b6cdcfabed5e5976ba697544be714d6) guide
+- I copied the main links of my old site
+- I used my images into [cdn.bilardi.net/alessandra](https://github.com/bilardi/cdn.aws)
 
-## See it in action
-<a href="https://dashingcode.github.io/front-cover/">Live demo page</a>
+What missing:
 
-## Credits
-The background image that was used as an example comes from Tom Hall.
-You can find it on <a href="https://flic.kr/p/pqEPBb">Flickr</a>.
-It's licensed under Creative-Commons.
-
-This theme makes use of the amazing <a href="http://fontawesome.io/">Font Awesome</a> icons.
-
+- move DNS

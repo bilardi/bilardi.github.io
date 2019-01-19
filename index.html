@@ -107,8 +107,16 @@ permalink: /
                     <li><a class="fa fa-2x fa-wikipedia-w" href="http://en.wikipedia.org/wiki/User:{{ site.wikipedia_username }}"><span class="description">Wikipedia</span></a></li>
                     {% endif %}
 
+                    {% if site.resume_url %}
+                    <li><a class="fa fa-2x fa-file" href="{{ site.baseurl }}{{ site.resume_url }}"><span class="description">Resume</span></a></li>
+                    {% endif %}
+
+                    {% if site.bookmark_url %}
+                    <li><a class="fa fa-2x fa-bookmark" href="{{ site.baseurl }}{{ site.bookmark_url }}"><span class="description">Bookmark</span></a></li>
+                    {% endif %}
+
                     {% if site.blog_url %}
-                    <li><a class="fa fa-2x fa-tags" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
+                    <li><a class="fa fa-2x fa-tags" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Notes</span></a></li>
                     {% endif %}
 
                     {% if site.email %}

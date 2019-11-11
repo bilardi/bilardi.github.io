@@ -53,3 +53,6 @@ favicon_img_path: "https://s3-eu-west-1.amazonaws.com/cdn.bilardi.net/favicon.ic
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Tracking
+googleAnalitycsID: UA-151979312-1

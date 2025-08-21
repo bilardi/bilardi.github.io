@@ -13,9 +13,11 @@ permalink: /
         {% if site.favicon_img %}
         <link rel="shortcut icon" href="{{ site.favicon_img_path }}" />
         {% endif %}
-        <link rel="stylesheet" href="{{ "css/front.css" | prepend: site.baseurl }}">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v7.0.0/css/all.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v7.0.0/css/v4-shims.css">
+        <link rel="stylesheet" href="{{ "css/front.css" | prepend: site.baseurl }}">
     </head>
     <body>
         <div class="content">
@@ -49,6 +51,10 @@ permalink: /
 
                     {% if site.twitter_username %}
                     <li><a class="fa fa-2x fa-twitter" href="https://twitter.com/{{ site.twitter_username }}"><span class="description">Twitter</span></a></li>
+                    {% endif %}
+
+                    {% if site.mastodon_username %}
+                    <li><a class="fa fa-2x fa-mastodon" href="https://{{ site.mastodon_username }}"><span class="description">Mastodon</span></a></li>
                     {% endif %}
 
                     {% if site.google_plus_username %}
@@ -107,6 +113,14 @@ permalink: /
                     <li><a class="fa fa-2x fa-wikipedia-w" href="http://en.wikipedia.org/wiki/User:{{ site.wikipedia_username }}"><span class="description">Wikipedia</span></a></li>
                     {% endif %}
 
+                    {% if site.activities_url %}
+                    <li><a class="fa fa-2x fa-microphone" href="{{ site.baseurl }}{{ site.activities_url }}"><span class="description">Activities</span></a></li>
+                    {% endif %}
+
+                    {% if site.projects_url %}
+                    <li><a class="fa fa-2x fa-list-check" href="{{ site.baseurl }}{{ site.projects_url }}"><span class="description">Projects</span></a></li>
+                    {% endif %}
+
                     {% if site.resume_url %}
                     <li><a class="fa fa-2x fa-file" href="{{ site.baseurl }}{{ site.resume_url }}"><span class="description">Resume</span></a></li>
                     {% endif %}
@@ -116,7 +130,7 @@ permalink: /
                     {% endif %}
 
                     {% if site.blog_url %}
-                    <li><a class="fa fa-2x fa-tags" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Notes</span></a></li>
+                    <li><a class="fa fa-2x fa-file" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Notes</span></a></li>
                     {% endif %}
 
                     {% if site.email %}

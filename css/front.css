@@ -98,11 +98,11 @@ li:hover {
 a {
     text-align: justify;
     border: 2px solid white;
-    border-radius: 5px;
+    border-radius: 100px;
     color: white;
-    padding: 15px;
-    padding-left: 30px;
-    width: 70%;
+    padding: 10px;
+   // padding-left: 30px;
+   // width: 70%;
 }
 a:hover {
     -webkit-transition: 500ms;
@@ -111,6 +111,22 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     text-decoration: none;
+}
+.fa {
+  --_fa-family: var(--fa-family,var(--fa-style-family,"Font Awesome 7 Free"));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: var(--fa-display,inline-block);
+  font-family: var(--_fa-family);
+  font-feature-settings: normal;
+  font-style: normal;
+  font-synthesis: none;
+  font-variant: normal;
+  font-weight: var(--fa-style,900);
+  line-height: 1;
+  text-align: center;
+  text-rendering: auto;
+  width: 80%;
 }
 .description {
     display: inline-block;

@@ -113,6 +113,10 @@ permalink: /
                     <li><a class="fa fa-2x fa-wikipedia-w" href="http://en.wikipedia.org/wiki/User:{{ site.wikipedia_username }}"><span class="description">Wikipedia</span></a></li>
                     {% endif %}
 
+                    {% if site.threads_username %}
+                    <li><a class="fa fa-2x fa-at" href="https://www.threads.com/@{{ site.wikipedia_username }}"><span class="description">Threads</span></a></li>
+                    {% endif %}
+
                     {% if site.activities_url %}
                     <li><a class="fa fa-2x fa-microphone" href="{{ site.baseurl }}{{ site.activities_url }}"><span class="description">Activities</span></a></li>
                     {% endif %}
@@ -130,7 +134,7 @@ permalink: /
                     {% endif %}
 
                     {% if site.blog_url %}
-                    <li><a class="fa fa-2x fa-file" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Notes</span></a></li>
+                    <li><a class="fa fa-2x fa-blog" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Diary</span></a></li>
                     {% endif %}
 
                     {% if site.email %}

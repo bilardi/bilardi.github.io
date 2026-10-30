@@ -26,6 +26,7 @@ instagram_username: alessandra.bilardi
 #weibo_username: your_weibo_username_goes_here
 #wikipedia_username: Bilardi
 threads_username: alessandra.bilardi
+about_url: "/about-me/"
 activities_url: "/resume/"
 projects_url: "/resume/categories/projects/"
 #resume_url: "/resume"

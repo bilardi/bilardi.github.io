@@ -9,6 +9,8 @@ author: Alessandra Bilardi
 
 <div class="lang-en" markdown="1">
 
+I bridge business needs and technology, turning complex data & AI challenges into reliable, production-ready solutions. From architecture to code, I help teams move from ideas and assessment to implementation and delivery.
+
 ## End-to-end data & AI architect
 
 I help teams turn business needs into practical technical solutions, from assessment and architecture design to the planning of activities and migrations, up to PoCs and MVPs for presales or before committing development resources. I combine hands-on engineering with end-to-end ownership, and the mentoring of new people with knowledge sharing, to help teams grow and deliver reliable, maintainable solutions.
@@ -34,6 +36,8 @@ I have worked with AI in different contexts, from model training to SRE. I like 
 </div>
 
 <div class="lang-it" markdown="1">
+
+Faccio da ponte tra le esigenze di business e la tecnologia, trasformando sfide complesse di data & AI in soluzioni affidabili e pronte per la produzione. Dall'architettura al codice, aiuto i team a passare dalle idee e dall'assessment all'implementazione e al delivery.
 
 ## End-to-end data & AI architect
 
